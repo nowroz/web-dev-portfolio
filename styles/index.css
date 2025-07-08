@@ -34,8 +34,15 @@
 }
 
 /* Shared fonts */
-.regular-18px {
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-description {
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 /* Shared Buttons */
@@ -115,10 +122,6 @@ nav > ul > li > a:visited {
     margin-bottom: 20px;;
 }
 
-.banner-content > p {
-    margin-bottom: 30px;
-}
-
 .banner-content > .btn-secondary {
     font-size: 20px;
     font-weight: bold;
@@ -128,4 +131,35 @@ nav > ul > li > a:visited {
     border-radius: 5px;
     padding: 18px 24px;
     margin-left: 30px;
+}
+
+/* main styles */
+main > section {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+/* about section */
+.about-section {
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+}
+
+.about-content {
+    background-color: white;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+table > thead {
+    font-size: 20px;
+}
+
+table > tbody {
+    font-size: 20px;
+    font-weight: bold;
 }
