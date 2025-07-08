@@ -49,6 +49,13 @@
     padding: 18px 35px;
 }
 
+/* header styles */
+header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 3%, bottom right;
+}
+
 /* nav styles */
 nav {
     display: flex;
