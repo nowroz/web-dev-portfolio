@@ -33,6 +33,11 @@
     background-color: #FFF8F3;
 }
 
+/* Shared fonts */
+.regular-18px {
+    font-size: 18px;
+}
+
 /* Shared Buttons */
 .btn-primary {
     font-size: 20px;
@@ -73,4 +78,47 @@ nav > ul > li > a,
 nav > ul > li > a:visited {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner styles */
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 38px 0 230px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-section > img {
+    max-width: 584px;
+}
+
+.banner-content > h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-content > h1 {
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;;
+}
+
+.banner-content > p {
+    margin-bottom: 30px;
+}
+
+.banner-content > .btn-secondary {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 24px;
+    margin-left: 30px;
 }
