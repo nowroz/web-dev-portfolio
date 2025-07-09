@@ -247,3 +247,36 @@ table > tbody {
 .resume-column > hr {
     border: 0.5px solid #D1D1D1;
 }
+
+/* footer section */
+footer {
+    display: flex;
+    padding: 130px 230px;
+    justify-content: space-between;
+    gap: 117px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-column > .section-title {
+    margin-bottom: 20px;
+}
+
+.footer-column > .experience-description {
+    margin-bottom: 30px;
+}
+
+.footer-column > a > img {
+    margin-right: 24px;
+}
+
+.footer-column *[name="contact"] {
+    display: block;
+    width: 100%;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
