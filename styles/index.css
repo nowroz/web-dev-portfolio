@@ -200,3 +200,48 @@ table > tbody {
 .card > h4 {
     margin-bottom: 20px;
 }
+
+/* resume section */
+.resume-section {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+    margin: 113px 0px 50px 0px;
+}
+
+.resume-column {
+    text-align: left;
+}
+
+.column-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.experience {
+    margin: 30px 47px 30px 0px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 16px;
+}
+
+.resume-column > hr {
+    border: 0.5px solid #D1D1D1;
+}
