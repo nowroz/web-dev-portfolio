@@ -63,6 +63,7 @@
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -140,6 +141,7 @@ nav > ul > li > a:visited {
     border-radius: 5px;
     padding: 18px 24px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 /* main styles */
