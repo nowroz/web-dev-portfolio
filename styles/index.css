@@ -162,16 +162,13 @@ main > section {
     border: 1px solid black;
 }
 
-table {
-    width: 100%;
+.about-data {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
 }
 
-table > thead {
-    font-size: 20px;
-}
-
-table > tbody {
-    font-size: 20px;
+.info {
     font-weight: bold;
 }
 
@@ -279,4 +276,32 @@ footer {
     border: none;
     border-radius: 5px;
     margin-bottom: 24px;
+}
+
+/* hidden */
+.hide {
+    display: none;
+}
+
+/* responsive */
+/* small device */
+@media screen and (max-width: 576px) {
+    .card-container,
+    .resume-container,
+    footer,
+    .about-data {
+        flex-direction: column;
+    }
+
+    .about-data-column {
+        margin: 10px;
+    }
+
+    footer, .about-section {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
 }
