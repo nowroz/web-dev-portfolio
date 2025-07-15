@@ -289,15 +289,41 @@ footer {
     .card-container,
     .resume-container,
     footer,
-    .about-data {
+    .about-data,
+    .banner-section,
+    nav {
         flex-direction: column;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .banner-section > img {
+        max-width: 100%;
     }
 
     .about-data-column {
         margin: 10px;
     }
 
-    footer, .about-section {
+    nav {
+        gap: 20px;
+    }
+
+    nav > ul {
+        gap: 40px;
+    }
+    
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    footer,
+    .about-section,
+    .resume-section,
+    .banner-section,
+    nav {
         padding: 20px;
     }
 
