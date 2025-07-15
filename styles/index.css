@@ -278,11 +278,6 @@ footer {
     margin-bottom: 24px;
 }
 
-/* hidden */
-.hide {
-    display: none;
-}
-
 /* responsive */
 /* small device */
 @media screen and (max-width: 576px) {
